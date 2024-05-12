@@ -1,0 +1,32 @@
+ERROR - 2024-05-12 01:45:42 --> mysqli_sql_exception: Unknown table 'ci_tasks.tasks' in D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php(308): mysqli->query('DROP TABLE `tas...', 0)
+#1 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tas...')
+#2 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tas...')
+#3 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tas...')
+#4 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\app\Database\Migrations\2024-05-12-012946_TasksTable.php(64): CodeIgniter\Database\Forge->dropTable('tasks')
+#5 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MigrationRunner.php(867): App\Database\Migrations\TasksTable->down()
+#6 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Commands\Database\MigrateRollback.php(87): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#11 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-05-12 14:47:58 --> mysqli_sql_exception: Unknown table 'ci_tasks.tasks' in D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php(308): mysqli->query('DROP TABLE `tas...', 0)
+#1 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tas...')
+#2 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tas...')
+#3 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tas...')
+#4 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\app\Database\Migrations\2024-05-12-012946_TasksTable.php(64): CodeIgniter\Database\Forge->dropTable('tasks')
+#5 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MigrationRunner.php(867): App\Database\Migrations\TasksTable->down()
+#6 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Commands\Database\MigrateRollback.php(87): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#11 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
