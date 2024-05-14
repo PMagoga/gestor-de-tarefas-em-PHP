@@ -1,0 +1,32 @@
+ERROR - 2024-05-14 22:44:20 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseBuilder.php(1821): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', NULL, false)
+#4 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseBuilder.php(2210): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\app\Database\Seeds\TasksSeeder.php(86): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\Seeder.php(147): App\Database\Seeds\TasksSeeder->run()
+#7 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#11 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-05-14 22:46:12 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseBuilder.php(1821): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', NULL, false)
+#4 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\BaseBuilder.php(2210): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\app\Database\Seeds\TasksSeeder.php(86): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Database\Seeder.php(147): App\Database\Seeds\TasksSeeder->run()
+#7 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(338): CodeIgniter\CLI\Console->run()
+#11 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\Curso_Desenvolvimento_Web\laragon\www\gestortarefas\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}

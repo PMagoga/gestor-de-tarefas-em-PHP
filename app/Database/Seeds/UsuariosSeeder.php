@@ -28,8 +28,7 @@ class UsuariosSeeder extends Seeder
         ];
 
         //insert all usuarios
-        $this->db
-
+        $this->db->table('usuarios')->insertBatch($usuarios);
 
     }
 }
